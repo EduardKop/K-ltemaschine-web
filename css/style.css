@@ -261,10 +261,10 @@ header {
       font-weight: bold; }
 
 .benefits {
+  padding-top: 67px;
   background-color: #FBFBFC; }
   .benefits .benefits-wrapper .benefits-title p {
-    padding-top: 67px;
-    padding-bottom: 42px;
+    margin-bottom: 42px;
     font-family: BBC Reith Sans;
     font-style: normal;
     font-weight: 500;
@@ -303,8 +303,7 @@ header {
     .peculiarities .peculiarities-wrapper .row {
       background: #FFFFFF;
       box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
-      border-radius: 16px;
-      height: 864px; }
+      border-radius: 16px; }
       .peculiarities .peculiarities-wrapper .row .peculiarities-title {
         margin-top: 41px;
         font-family: BBC Reith Sans;
@@ -313,22 +312,20 @@ header {
         font-size: 28px;
         line-height: 40px;
         height: 40px;
-        /* identical to box height, or 143% */
         letter-spacing: 4.42px;
-        /* Elsässer Header Paragraph Text */
         color: #020303; }
     .peculiarities .peculiarities-wrapper .peculiarities-list {
       margin-top: 71px; }
       .peculiarities .peculiarities-wrapper .peculiarities-list .list ol {
         margin: 0px 52px 0px 52px;
+        margin-bottom: 200px;
         list-style-position: inside;
         -moz-column-count: 2;
         /* Firefox */
         -webkit-column-count: 2;
         /* Safari and Chrome */
         column-count: 2;
-        list-style-type: decimal;
-        height: 864px; }
+        list-style-type: decimal; }
         .peculiarities .peculiarities-wrapper .peculiarities-list .list ol .list__item-first {
           margin-top: 0px; }
         .peculiarities .peculiarities-wrapper .peculiarities-list .list ol li {
@@ -612,11 +609,9 @@ footer .footer-wrapper {
 
   .benefits .benefits-wrapper {
     margin: 0px 8px 0px 8px; }
-    .benefits .benefits-wrapper .items-wrapper .benefits-item {
-      width: 359px; }
-      .benefits .benefits-wrapper .items-wrapper .benefits-item .benefits-item__desriptions p {
-        font-size: 18px;
-        width: 200px; }
+    .benefits .benefits-wrapper .items-wrapper .benefits-item .benefits-item__desriptions p {
+      font-size: 18px;
+      width: 200px; }
 
   .peculiarities {
     background: #FBFBFC;
@@ -639,11 +634,8 @@ footer .footer-wrapper {
           line-height: 30px; }
           .peculiarities .peculiarities-wrapper .peculiarities-list .list ol li .num {
             line-height: 15px; }
-      .peculiarities .peculiarities-wrapper .row {
-        height: 1793px; }
 
   .possibility .possibility-cards .possibility-card {
-    width: 359px;
     margin: 0px 4px 0px 0px; }
 
   .modern .col-wrapper {
@@ -751,13 +743,9 @@ footer .footer-wrapper {
       font-size: 17px;
       line-height: 32px; }
 
-  .benefits .benefits-wrapper {
-    margin: 0px 8px 0px 8px; }
-    .benefits .benefits-wrapper .items-wrapper .benefits-item {
-      width: 359px; }
-      .benefits .benefits-wrapper .items-wrapper .benefits-item .benefits-item__desriptions p {
-        font-size: 18px;
-        width: 200px; }
+  .benefits .benefits-wrapper .items-wrapper .benefits-item .benefits-item__desriptions p {
+    font-size: 18px;
+    width: 200px; }
 
   .peculiarities {
     background: #FBFBFC;
@@ -783,12 +771,9 @@ footer .footer-wrapper {
             line-height: 30px; }
             .peculiarities .peculiarities-wrapper .peculiarities-list .list ol li .num {
               line-height: 15px; }
-      .peculiarities .peculiarities-wrapper .row {
-        height: 1793px; }
 
   .possibility .possibility-cards .possibility-card {
-    margin: auto;
-    width: 359px; }
+    margin: auto; }
 
   .modern .col-wrapper {
     padding: 0px; }

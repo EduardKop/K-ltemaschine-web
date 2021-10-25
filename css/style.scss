@@ -137,15 +137,7 @@ header {
                     padding: 3px;
                     margin-left: 8px;
                     margin-bottom: 3px;
-
-
-
                 }
-
-
-
-
-
             }
 
             .nav-link {
@@ -430,14 +422,14 @@ header {
 
 
 .benefits {
+    padding-top: 67px;
 
     background-color: #FBFBFC;
     ;
 
     .benefits-wrapper {
         .benefits-title p {
-            padding-top: 67px;
-            padding-bottom: 42px;
+            margin-bottom: 42px;
             font-family: BBC Reith Sans;
             font-style: normal;
             font-weight: 500;
@@ -499,19 +491,13 @@ header {
                 font-size: 28px;
                 line-height: 40px;
                 height: 40px;
-                /* identical to box height, or 143% */
-
                 letter-spacing: 4.42px;
-
-                /* Elsässer Header Paragraph Text */
-
                 color: #020303;
             }
 
             background: #FFFFFF;
             box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
             border-radius: 16px;
-            height: 864px;
         }
 
         padding-left: 121px;
@@ -522,6 +508,7 @@ header {
 
             .list ol {
                 margin: 0px 52px 0px 52px;
+                margin-bottom: 200px;
 
                 .list__item-first {
                     margin-top: 0px;
@@ -555,8 +542,6 @@ header {
                 /* Safari and Chrome */
                 column-count: 2;
                 list-style-type: decimal;
-                height: 864px;
-
             }
         }
     }
@@ -1024,7 +1009,6 @@ footer {
 
             .items-wrapper {
                 .benefits-item {
-                    width: 359px;
 
                     .benefits-item__desriptions p {
                         font-size: 18px;
@@ -1067,28 +1051,12 @@ footer {
                     padding-right: 15px;
                 }
             }
-
-            .row {
-                height: 1793px;
-
-                .peculiarities-title {}
-            }
         }
     }
-
-
     .possibility {
-
-
-        .possibility-title {}
-
         .possibility-cards {
-
             .possibility-card {
-                width: 359px;
                 margin: 0px 4px 0px 0px;
-
-                p {}
             }
         }
     }
@@ -1101,22 +1069,6 @@ footer {
         .col-wrapper {
             padding: 0px;
         }
-
-        .modern__description-wrapper {
-
-
-            .modern-titile {}
-
-            .modern-description {
-
-
-                & p span {}
-
-                & span p {}
-            }
-
-        }
-
     }
 
     .contacts {
@@ -1493,11 +1445,9 @@ footer {
 
 
         .benefits-wrapper {
-            margin: 0px 8px 0px 8px;
 
             .items-wrapper {
                 .benefits-item {
-                    width: 359px;
 
                     .benefits-item__desriptions p {
                         font-size: 18px;
@@ -1545,12 +1495,6 @@ footer {
                     }
                 }
             }
-
-            .row {
-                height: 1793px;
-
-                .peculiarities-title {}
-            }
         }
     }
 
@@ -1564,9 +1508,6 @@ footer {
 
             .possibility-card {
                 margin: auto;
-                width: 359px;
-
-                p {}
             }
         }
     }
